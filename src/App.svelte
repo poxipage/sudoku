@@ -34,11 +34,11 @@
 </div>
 <div class="buttons justify-center mt-2 gap-0.5 flex w-full max-w-lg">
   {#each [1,2,3,4,5,6,7,8, 9] as digit}
-    <button class="w-8 h-8 border-2 border-black rounded" on:click={() => enterDigit(digit)}>{digit}</button>
+    <button class="w-8 h-8 border-2 btn-primary border-primary-content rounded" on:click={() => enterDigit(digit)}>{digit}</button>
   {/each}
 </div>
 <div class="buttons justify-center mt-2 flex w-full max-w-lg">
-  <button class="w-12 h-8 border-2 border-black rounded" on:click={undo}>Undo</button>
+  <button class="w-12 h-8 border-2 btn-primary border-primary-content rounded" on:click={undo}>Undo</button>
 </div>
 
 <style>
